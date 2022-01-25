@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "c4216b73-0885-4375-85ab-c1831951498c",
+		"name": "xlabs systems requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "no params",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stars_beer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/?s=beer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "beer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stars_value",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/?s=value",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "value"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
